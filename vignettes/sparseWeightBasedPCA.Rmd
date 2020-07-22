@@ -28,7 +28,7 @@ library(sparseWeightBasedPCA)
 
 ## Introduction
 
-In this vignette we introduce an `R` package to perform regularized SCA and PCA with sparsity on the component weights, this package includes model selection procedures. The procedures developed are based on recent work by de Schipper and Van Deun. The main procedures of the package have been written in `C++` using Rcpp [@rcpp] and RcppArmadillo [@rcpparmadillo] to provide maximal efficiency of the underlying numerical computations. In this vignette we will introduce the reader to PCA and its multi-block extension SCA, followed by a substantiation of the models that the procedures in this package estimate. After that the `R` implementation of the package is discussed followed by detailed examples of data analysis and model selection.
+In this vignette we introduce an `R` package to perform regularized SCA and PCA with sparsity on the component weights; note that this package also includes model selection procedures. The procedures developed are based on recent work by de Schipper and Van Deun. The main procedures of the package have been written in `C++` using Rcpp [@rcpp] and RcppArmadillo [@rcpparmadillo] to provide maximal efficiency of the underlying numerical computations. This vignette is organized as follows. First we will introduce the reader to PCA and its multi-block extension SCA, after which we present the models that the procedures in this package estimate. Then the `R` implementation of the package is discussed followed by detailed examples of data analysis and model selection.
 
 ## Theoretical background
 
